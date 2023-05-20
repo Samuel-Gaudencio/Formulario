@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.cdnfonts.com/css/averia-serif" rel="stylesheet">
+		<title>Teste</title>
+	</head>
+	<body>
+		<h1>Questionário</h1>
+		<form>
+			<div class="grade">	
+				<div>
+					<label>Nome:</label><br>	
+					<input class="tamanho" type="text" placeholder="Nome";>
+				</div>
+				<div>
+					<label>Email:</label><br>
+					<input class="tamanho" type="email" placeholder="E-mail">
+				</div>
+				<div>
+					<label>Idade(opcional)</label><br>
+					<input class="tamanho" type="number" value="18">
+				</div>
+				
+				<div>
+					<label>Qual opção melhor descreve sua função atual?</label><br>
+					<select value="">
+					<option selected disabled>Selecione</option>
+					<option>Estudante</option>
+					<option>Empregado</option>
+					<option>Desempregado</option>
+					<option>Prefiro não dizer</option>
+					<option>Outro</option>
+					</select>
+				</div>
+				<div>
+					<label>Você recomendaria o site para algum amigo?</label><br>
+					<input type="radio" name="recomend">Definitivamente<br>
+					<input type="radio" name="recomend">Talvez<br>
+					<input type="radio" name="recomend">Não<br>
+				</div>
+				<div>
+					<label>Qual e o seu recurso favorito do site?</label><br>
+					<select>
+					<option disabled selected>Selecione</option>
+					<option>Desafios</option>
+					<option>Projetos</option>
+					<option>Comunidade</option>
+					<option>Codigo aberto</option>
+					</select>
+				</div>
+				<div>
+					<label>O que você gostaria de ver melhorando? (marque todos os que se aplicam)</label><br>
+					<label>	
+						<input type="checkbox" value="projetofrontend">Projetos front-end<br>
+					</label>
+					<label>
+						<input type="checkbox" value="projetosbackend">Projetos back-end<br>
+					</label>
+					<label>
+						<input type="checkbox" value="visualizacaodedados">Visualização de dados<br>
+					</label>
+					<label>
+						<input type="checkbox" value="desafios">Desafios<br>
+					</label>
+					<label>
+						<input type="checkbox" value="codigosabertosdacomunidade">Codigos abertos da comunidade<br>
+					</label>
+					<label>
+						<input type="checkbox" value="salasdeajuda">Salas de ajuda<br>
+					</label>
+					<label>
+						<input type="checkbox" value="videos">Videos<br>
+					</label>
+					<label>
+						<input type="checkbox" value="cursosadicionais">Cursos adicionais<br>
+					</label>
+				</div>
+				<div>
+					<label>Algum comentario ou sugestão?</label><br>
+					<textarea name="comentario" placeholder="Insira seu comentario aqui..." rows="5px" cols="60px"></textarea>
+				</div>
+				<div>
+					<button>Enviar</button>
+				</div>
+			</div>
+		</form>		
+	</body>
+</html>
+

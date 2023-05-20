@@ -1,0 +1,43 @@
+body{
+    background-color: #252440;
+    align-items: center;
+    color: white;
+    font-family: 'Averia Serif', sans-serif;
+}
+
+form{
+    display: flex;
+    background-color: #2823bc;
+    border-radius: 15px;
+    width: 500px;
+    margin: 20px auto;
+    padding: 3px;
+
+}
+h1{
+    text-align: center;
+}
+.grade{
+    margin: 20px;
+}
+div{
+    margin: 4px;
+}
+input{
+    margin-top: 4px;
+}
+.tamanho{
+    width: 450px;
+}
+select{
+    width: 458px;
+    padding: 2px;
+}
+button{
+    background-color: #e9791a;
+    border: 0;
+    padding: 8px;
+    width: 460px;
+    color: white;
+    font-size: 18px;
+}
